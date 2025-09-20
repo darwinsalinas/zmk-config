@@ -55,13 +55,13 @@
 // |  TAB  |  Q  |  W  |  E   |  R   |  T   |                   |  Y   |  U    |  I    |  O   |   P   | BSLH |
 // |  ESC  |  A  |  S  |  D   |  F   |  G   |                   |  H   |  J    |  K    |  L   |   ;   |  '   |
 // | SHIFT |  Z  |  X  |  C   |  V   |  B   |                   |  N   |  M    |  ,    |  .   |   /   | SHFT |
-//                      |  ADJUST   | RAISE |  ENTER |           | BSPC  | SPACE |  FN  |
+//                      |  ADJUST   | RAISE |  SPACE |           | ENTER  | LOWER |  FN  |
             bindings = <
 &kp GRAVE       &kp N1 &kp N2        &kp N3        &kp N4         &kp N5              &kp N6 &kp N7     &kp N8      &kp N9        &kp N0   &kp MINUS
 &kp TAB         &kp Q  &kp W         &kp E         &kp R          &kp T               &kp Y  &kp U      &kp I       &kp O         &kp P    &kp BSLH
 &lt LOWER ESC   &kp A  &mt LCTL S    &mt LGUI D    &mt LALT F     &kp G               &kp H  &mt RALT J &mt RGUI K  &mt RCTL L    &kp SEMI &kp SQT
 &kp LSHFT       &kp Z  &kp X         &kp C         &kp V          &kp B               &kp N  &kp M      &kp COMMA   &kp DOT       &kp FSLH &kp RSHFT
-                                            &mo ADJUST   &mo RAISE &kp ENTER        &kp BSPC      &kp SPACE &mo FN
+                                            &mo ADJUST   &mo RAISE &kp SPACE        &kp ENTER      &kp LOWER &mo FN
             >;
         };
 
