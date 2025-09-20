@@ -12,3 +12,7 @@ manifest:
       import: app/west.yml
   self:
     path: config
+  features:
+    - keys
+    - display
+    - studio
